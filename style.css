@@ -146,5 +146,11 @@ main {
 
 .task .actions .edit {
 	color: var(--pink);
-	background: linear-gradient(var(--pink), var(--purple));
+	/* background: linear-gradient(var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+.task .actions .delete {
+	color: crimson;
 }
