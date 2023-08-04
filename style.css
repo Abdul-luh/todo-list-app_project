@@ -70,7 +70,7 @@ button {
 	background: var(--purple);
 	/* background-image: linear-gradient(var(--pink), var(--purple)); */
 	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent; */
 	cursor: pointer;
 	transform: 0.4s;
 }
@@ -110,10 +110,17 @@ main {
 	border-radius: 1rem;
 	margin-bottom: 1rem;
 }
+
+#tasks .content {
+	width: 80%;
+}
+
 #tasks .task .content .text {
 	color: var(--light);
 	font-size: 1.125rem;
 	width: 100%;
+	height: auto;
+
 	display: block;
 	transition: 0.4s;
 }
@@ -124,7 +131,7 @@ main {
 
 #tasks .task .actions {
 	display: flex;
-	margin: 0 -0.5rem;
+	margin: 0 0.5rem;
 }
 
 .task .actions button {
@@ -146,9 +153,7 @@ main {
 
 .task .actions .edit {
 	color: var(--pink);
-	/* background: linear-gradient(var(--pink), var(--purple));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
+	background: linear-gradient(var(--pink), var(--purple));
 }
 
 .task .actions .delete {
